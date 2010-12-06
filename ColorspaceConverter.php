@@ -216,8 +216,8 @@ class ColorspaceConverter
 	 */
 	public static function hex2hsv($hex)
 	{
-		$rgb = Image_Tools::hex2rgb($hex);
-		return Image_Tools::rgb2hsv($rgb);
+		$rgb = self::hex2rgb($hex);
+		return self::rgb2hsv($rgb);
 	}
 	
 	/**
@@ -231,8 +231,8 @@ class ColorspaceConverter
 	 */
 	public static function hsv2hex($h, $s = NULL, $v = NULL)
 	{
-		$rgb = Image_Tools::hsv2rgb($h, $s, $v);
-		return Image_Tools::rgb2hex($rgb);
+		$rgb = self::hsv2rgb($h, $s, $v);
+		return self::rgb2hex($rgb);
 	}
 	
 }
