@@ -14,7 +14,7 @@ class ColorspaceConverter
 	 */
 	public static function rgb2hsv($r, $g = NULL, $b = NULL)
 	{
-		$hsl = array();
+		$hsv = array();
 		$rgb = array();
 		$delta_rgb = array();
 		
@@ -71,9 +71,9 @@ class ColorspaceConverter
 			$h--;
 		}
 		
-		$hsl['h'] = $h;
-		$hsl['s'] = $s;
-		$hsl['v'] = $v;
+		$hsv['h'] = $h;
+		$hsv['s'] = $s;
+		$hsv['v'] = $v;
 		
 		return $hsl;
 	}
