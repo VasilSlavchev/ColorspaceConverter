@@ -10,9 +10,10 @@ A PHP-class for converting colorspaces.
 
 ## Methods
 ColorspaceConverter currently supports RGB, HSV ans HEX
-*   rgb2hsv
-*   rgb2hex
-*   hsv2rgb
-*   hsv2hex
-*   hex2rgb
-*   hex2hsv
+
+* rgb2hsv
+* rgb2hex
+* hsv2rgb
+* hsv2hex
+* hex2rgb
+* hex2hsv
